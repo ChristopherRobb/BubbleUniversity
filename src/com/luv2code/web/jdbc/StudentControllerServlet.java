@@ -224,7 +224,7 @@ public class StudentControllerServlet extends HttpServlet {
 		request.setAttribute("STUDENT_LIST", students);
 		
 		//send to JSP page(view)
-		RequestDispatcher dispatcher = request.getRequestDispatcher("/list-students.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/list-students-boot.jsp");
 		dispatcher.forward(request, response);
 		
 	}
